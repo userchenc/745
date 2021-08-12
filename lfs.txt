@@ -1,0 +1,14 @@
+$ git lfs install
+ 
+$ git add .gitattributes
+$ git commit -m 'large - init file'
+$ git config lfs.https://github.com/userchenc/745.git/info/lfs.locksverify false
+$ git push -u origin master
+
+$ git add -f *.exe
+$  git commit -m "upload big file" *.exe
+$ git push origin master	可能由于网络原因连不上
+Uploading LFS objects:   0% (0/1), 11 MB | 21 KB/s
+
+
+
