@@ -1,0 +1,21 @@
+新建本地库，上传已有远程库
+$ git init
+$ git lfs install
+ 
+$ git lfs track '*.exe'
+$ git add .gitattributes
+$ git commit -m 'large - init file' *.exe 
+$ git remote add origin https://github.com/userchenc/745.git
+$ git config lfs.https://github.com/userchenc/745.git/info/lfs.locksverify false
+$ git pull origin master --allow-unrelated-histories 先拉取，合并两个不相关的库
+$ git push origin master
+
+$ git add -f *.exe    .exe文件原本被ignore
+$ git commit -m "upload big file" *.exe
+$ git push origin master	可能由于网络原因连不上，别开代理
+Uploading LFS objects:   0% (0/1), 11 MB | 21 KB/s
+
+其他命令：
+    git lfs ls-files    查看track的文件列表
+    git lfs clone       克隆包含lfs大文件的库
+
