@@ -15,5 +15,7 @@ $ git commit -m "upload big file" *.exe
 $ git push origin master	可能由于网络原因连不上
 Uploading LFS objects:   0% (0/1), 11 MB | 21 KB/s
 
-
+其他命令：
+    git lfs ls-files    查看track的文件列表
+    git lfs clone       克隆包含lfs大文件的库
 
