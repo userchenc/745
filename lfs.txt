@@ -12,7 +12,7 @@ $ git push origin master
 
 $ git add -f *.exe    .exe文件原本被ignore
 $ git commit -m "upload big file" *.exe
-$ git push origin master	可能由于网络原因连不上
+$ git push origin master	可能由于网络原因连不上，别开代理
 Uploading LFS objects:   0% (0/1), 11 MB | 21 KB/s
 
 其他命令：
