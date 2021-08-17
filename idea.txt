@@ -1,0 +1,9 @@
+调整主题字体大小	apperance/apperance
+调整主题行高	material Theme/project view
+编辑器字体	editor/color schema/color schema font
+字体颜色		editor/color schema/language defaults
+$()		languages/javascript/library
+
+codota		CS+Y 	CS+O
+翻译		AS+;	AS+‘’
+camel case	AS+U	大小写  CS+U
