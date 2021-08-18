@@ -7,3 +7,7 @@ $()		languages/javascript/library
 codota		CS+Y 	CS+O
 翻译		AS+;	AS+‘’
 camel case	AS+U	大小写  CS+U
+
+小表格
+https://shimo.im/sheets/Pqycr3hrQgvpGhVV/MODOC
+
