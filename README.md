@@ -1,1 +1,1 @@
-###Happy is a compatence.
+Happy is a compatence.
